@@ -12,6 +12,8 @@ if right_flipper.value() == 1:
 # do something
 ```
 
+-   need an `env`? probably not.
+
 # todo
 
 # things I've learnt
