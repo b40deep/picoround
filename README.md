@@ -1,3 +1,9 @@
+# using
+
+-   Pico Lipo 16MB
+-   GGC9A01 round display
+-   driver from Hughes [add github link]
+
 # installation:
 
 -   flash the firmware onto the device. The firmware comes with pre-built libraries for the display and some fonts.
