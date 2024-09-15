@@ -87,6 +87,8 @@ def main():
     tft.fill(gc9a01.BLACK)
 
     height = tft.height()
+    print(f"screen height: {type(height)} {height}")
+    # height = 500   # want to see if i can make a `longer` screen to enable proper scrolling
     width = tft.width()
 
     # Set up scrolling area

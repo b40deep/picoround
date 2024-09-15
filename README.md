@@ -4,6 +4,10 @@
 -   GGC9A01 round display
 -   driver from Hughes [add github link]
 
+# setup
+
+![Wiring!](/images/wiring_round.jpg)
+
 # installation:
 
 -   flash the firmware onto the device. The firmware comes with pre-built libraries for the display and some fonts.
@@ -21,6 +25,9 @@ if right_flipper.value() == 1:
 -   need an `env`? probably not.
 
 # todo
+
+-   currently, the screen loads text and displays it. if you don't clear the screen[top and bottom], the text loops and new text overlaps the old text. if you clear the screen, you can't see to previously loaded text when you scroll to it since the screen is wiped.
+    what if we elongate the screen height and only display a bit at a time?
 
 # things I've learnt
 
